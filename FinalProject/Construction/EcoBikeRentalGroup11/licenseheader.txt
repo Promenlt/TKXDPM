@@ -1,0 +1,21 @@
+<#if licenseFirst??>
+${licenseFirst}
+</#if>
+${licensePrefix}--------------------ECOBIKE RENTAL 1.0.1--------------------
+${licensePrefix?replace(" +$", "", "r")}
+${licensePrefix}Design and Software Construction 20201
+${licensePrefix?replace(" +$", "", "r")}
+${licensePrefix}Copyright (C) ${date?date?string("yyyy")} by Group 11
+${licensePrefix?replace(" +$", "", "r")}
+${licensePrefix}Nguyen Thanh Long
+${licensePrefix}Nguyen Hai Long
+${licensePrefix}Nguyen Cong Luat
+${licensePrefix}UN LyAn
+${licensePrefix?replace(" +$", "", "r")}
+${licensePrefix}This software is created for academic purposes only. Not for
+${licensePrefix}commercial purposes. We do not guarantee maintenance issues.
+${licensePrefix?replace(" +$", "", "r")}
+${licensePrefix}------------------------------------------------------------
+<#if licenseLast??>
+${licenseLast}
+</#if>
